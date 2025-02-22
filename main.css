@@ -1,0 +1,442 @@
+
+/* Default styles for mobile-first */
+
+.MainTxt{
+    
+    display: flex;
+    /* background-color: white; */
+    /* padding-left: 23%;
+    padding-right: 23%; */
+    margin-top: -10%;
+    margin-bottom: -10%;
+    color: white;
+    font-size: 50%;
+    opacity: 0;
+    text-shadow: 
+    1px 1px 0px black,   
+    -1px -1px 0px black, 
+    1px -1px 0px black, 
+    -1px 1px 0px black; 
+    z-index: 3; 
+
+}
+body {
+  
+        font-family: Arial, sans-serif;
+        background-color: pink;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        /* padding-left: 25%;
+        padding-right: 25%; */
+    
+        align-items: center;
+        height: 100vh;
+    
+    
+    
+   
+    
+    .Line{
+        display: flex;
+       
+        width: 2px;
+        height: 2%;
+        background-color: red;
+        /* position: relative; */
+        transform-origin: center top;
+        transform: rotate(90deg);
+        box-sizing: border-box;
+    }
+    
+    .Line2{
+    
+        display: flex;
+    
+        width: 2px;
+        height: 2%;
+        background-color: red;
+        /* position: relative; */
+        transform-origin: center top;
+        transform: rotate(-90deg);
+        box-sizing: border-box;
+    }
+    
+    .LineParent{
+        
+       margin-top: -4%;
+        margin-bottom: -15%;
+        width: 10vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    
+    }
+    
+    .button{
+    
+        z-index: 2;
+    
+    }
+    
+    .greet{
+    
+        display: flex;
+        /* background-color: white; */
+        /* padding-left: 23%;
+        padding-right: 23%; */
+        margin-top: -28%;
+        margin-bottom: 10%;
+        color: white;
+        font-size: 150%;
+        opacity: 1;
+        text-shadow: 
+        1px 1px 0px black,   
+        -1px -1px 0px black, 
+        1px -1px 0px black, 
+        -1px 1px 0px black; 
+        z-index: 3; 
+    
+    }
+    
+    
+    
+  
+
+  }
+  
+/* Mobiles */
+
+  @media (min-width: 767px) {
+
+        
+
+  }
+
+  /* Tablets */
+  @media (min-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: pink;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        /* padding-left: 25%;
+        padding-right: 25%; */
+    
+        align-items: center;
+        height: 100vh;
+    
+    }
+    
+    .MainTxt{
+    
+        display: flex;
+        /* background-color: white; */
+        /* padding-left: 23%;
+        padding-right: 23%; */
+        margin-top: -10%;
+        margin-bottom: -10%;
+        color: white;
+        font-size: 150%;
+        opacity: 0;
+        text-shadow: 
+        1px 1px 0px black,   
+        -1px -1px 0px black, 
+        1px -1px 0px black, 
+        -1px 1px 0px black; 
+        z-index: 3; 
+    
+    }
+    
+    .Line{
+        display: flex;
+       
+        width: 2px;
+        height: 5%;
+        background-color: red;
+        /* position: relative; */
+        transform-origin: center top;
+        transform: rotate(90deg);
+        box-sizing: border-box;
+    }
+    
+    .Line2{
+    
+        display: flex;
+    
+        width: 2px;
+        height: 5%;
+        background-color: red;
+        /* position: relative; */
+        transform-origin: center top;
+        transform: rotate(-90deg);
+        box-sizing: border-box;
+    }
+    
+    .LineParent{
+        
+       margin-top: -4%;
+        margin-bottom: -15%;
+        width: 10vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    
+    }
+    
+    .button{
+    
+        z-index: 2;
+    
+    }
+    
+    .greet{
+    
+        display: flex;
+        /* background-color: white; */
+        /* padding-left: 23%;
+        padding-right: 23%; */
+        margin-top: -8%;
+        margin-bottom: 2%;
+        color: white;
+        font-size: 150%;
+        opacity: 1;
+        text-shadow: 
+        1px 1px 0px black,   
+        -1px -1px 0px black, 
+        1px -1px 0px black, 
+        -1px 1px 0px black; 
+        z-index: 3; 
+    
+    }
+    
+    
+    
+  
+
+  }
+  
+  /* Laptops */
+  @media (min-width: 1024px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: pink;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        /* padding-left: 25%;
+        padding-right: 25%; */
+    
+        align-items: center;
+        height: 100vh;
+    
+    }
+    
+    .MainTxt{
+    
+        display: flex;
+        /* background-color: white; */
+        /* padding-left: 23%;
+        padding-right: 23%; */
+        margin-top: -10%;
+        color: white;
+        font-size: 150%;
+        opacity: 0;
+        text-shadow: 
+        1px 1px 0px black,   
+        -1px -1px 0px black, 
+        1px -1px 0px black, 
+        -1px 1px 0px black; 
+        z-index: 3; 
+    
+    }
+    
+    .Line{
+        display: flex;
+       
+        width: 2px;
+        height: 5%;
+        background-color: red;
+        /* position: relative; */
+        transform-origin: center top;
+        transform: rotate(90deg);
+        box-sizing: border-box;
+    }
+    
+    .Line2{
+    
+        display: flex;
+    
+        width: 2px;
+        height: 5%;
+        background-color: red;
+        /* position: relative; */
+        transform-origin: center top;
+        transform: rotate(-90deg);
+        box-sizing: border-box;
+    }
+    
+    .LineParent{
+        
+       margin-top: -4%;
+        margin-bottom: -5%;
+        width: 10vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    
+    }
+    
+    .button{
+    
+        z-index: 2;
+    
+    }
+    
+    .greet{
+    
+        display: flex;
+        /* background-color: white; */
+        /* padding-left: 23%;
+        padding-right: 23%; */
+        margin-top: -8%;
+        margin-bottom: 2%;
+        color: white;
+        font-size: 150%;
+        opacity: 1;
+        text-shadow: 
+        1px 1px 0px black,   
+        -1px -1px 0px black, 
+        1px -1px 0px black, 
+        -1px 1px 0px black; 
+        z-index: 3; 
+    
+    }
+    
+    
+    
+  
+
+  }
+  
+  /* Large Screens */
+  @media (min-width: 1440px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: pink;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        /* padding-left: 25%;
+        padding-right: 25%; */
+    
+        align-items: center;
+        height: 100vh;
+    
+    }
+    
+    .MainTxt{
+    
+        display: flex;
+        /* background-color: white; */
+        /* padding-left: 23%;
+        padding-right: 23%; */
+        
+        margin-bottom: 0%;
+        color: white;
+        font-size: 250%;
+        opacity: 0;
+        text-shadow: 
+        1px 1px 0px black,   
+        -1px -1px 0px black, 
+        1px -1px 0px black, 
+        -1px 1px 0px black; 
+        z-index: 3; 
+    
+    }
+    
+    .Line{
+        display: flex;
+       
+        width: 2px;
+        height: 5%;
+        background-color: red;
+        /* position: relative; */
+        transform-origin: center top;
+        transform: rotate(90deg);
+        box-sizing: border-box;
+    }
+    
+    .Line2{
+    
+        display: flex;
+    
+        width: 2px;
+        height: 5%;
+        background-color: red;
+        /* position: relative; */
+        transform-origin: center top;
+        transform: rotate(-90deg);
+        box-sizing: border-box;
+    }
+    
+    .LineParent{
+        
+       margin-top: -4%;
+        margin-bottom: -15%;
+        width: 10vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    
+    }
+    
+    .button{
+    
+        z-index: 2;
+    
+    }
+    
+    .greet{
+    
+        display: flex;
+        /* background-color: white; */
+        /* padding-left: 23%;
+        padding-right: 23%; */
+        margin-top: -8%;
+        margin-bottom: 2%;
+        color: white;
+        font-size: 150%;
+        opacity: 1;
+        text-shadow: 
+        1px 1px 0px black,   
+        -1px -1px 0px black, 
+        1px -1px 0px black, 
+        -1px 1px 0px black; 
+        z-index: 3; 
+    
+    }
+    
+    
+    
+  
+    
+  }
+  
+
+
+
+
