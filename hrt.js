@@ -80,7 +80,7 @@ button.addEventListener('click', function CreateCircle() {
             } else {
                 time = true;
             }
-        }, 1);
+        }, 0.0001);
     }
 
     Generate();
